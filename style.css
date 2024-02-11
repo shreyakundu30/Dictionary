@@ -109,7 +109,7 @@ footer {
     left: 0; /* Align the footer to the left */
     bottom: 0; /* Align the footer to the bottom */
     width: 100%; /* Set the width to 100% */
-    background-color: transparent; /* Change background color as needed */
+    background-image: url('https://cutewallpaper.org/28/corporate-background-hd-wallpaper/hd-banner-background-posted-by-ethan-thompson.png'); /* Change background color as needed */
     color: black; /* Text color */
     padding: 15px; /* Add padding for better spacing */
     text-align: center; /* Center-align content */
@@ -133,3 +133,4 @@ footer {
 footer p {
     font-size: 14px; /* Adjust font size as needed */
 }
+
