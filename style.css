@@ -13,7 +13,7 @@ body {
     background-size: cover;
 }
 
-h1 {
+header h1 {
     font-family: sans-serif;
     text-align: center;
     margin-top: 50px;
@@ -133,4 +133,5 @@ footer {
 footer p {
     font-size: 14px; /* Adjust font size as needed */
 }
+
 
