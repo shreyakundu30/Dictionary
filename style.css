@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*:not(i) {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url('https://cutewallpaper.org/28/corporate-background-hd-wallpaper/hd-banner-background-posted-by-ethan-thompson.png');
+    background-size: cover;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 70px;
+    color: transparent;
+    background-image: url('https://media0.giphy.com/media/HAbox55EI0dpwsTUgc/200.webp?cid=ecf05e47d6cy9c9r6lbgiu8ylhnnqqdh0wcmhrxgwxctz5yh&ep=v1_gifs_search&rid=200.webp&ct=g');
+    background-position: center;
+    -webkit-background-clip: text;
+}
+
+.container {
+    background-color: #ffffff;
+    max-width: 90vmin;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 58%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;;
+}
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box input {
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #0B60B0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.search-box button {
+    padding: 15px 0;
+    width: 25%;
+    background-color: #A25772;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.result {
+    position: relative;
+}
+.result h3 {
+    font-size: 30px;
+    color: #1f194c;
+}
+.result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.result button {
+    background-color: transparent;
+    color: #ae9cff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.result details {
+    display: flex;
+    gap: 10px;
+    color: #b3b6d4;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+.word-meaning {
+    color: #575a7b;
+}
+.word-example {
+    color: #575a7b;
+    font-style: italic;
+    border-left: 5px solid #ae9cff;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.error {
+    margin-top: 80px;
+    text-align: center;
+}
+/* Footer styles */
+footer {
+    position: fixed; /* Set the position to fixed */
+    left: 0; /* Align the footer to the left */
+    bottom: 0; /* Align the footer to the bottom */
+    width: 100%; /* Set the width to 100% */
+    background-color: transparent; /* Change background color as needed */
+    color: black; /* Text color */
+    padding: 15px; /* Add padding for better spacing */
+    text-align: center; /* Center-align content */
+}
+
+.social-icons {
+    margin-bottom: 10px; /* Add margin at the bottom of social icons */
+}
+
+.social-icons a {
+    color: black; /* Icon color */
+    font-size: 24px; /* Adjust icon size as needed */
+    margin: 0 20px; /* Add margin between icons */
+}
+
+.social-icons a:hover {
+    color: maroon; /* Change icon color on hover */
+}
+
+/* Copyright message */
+footer p {
+    font-size: 14px; /* Adjust font size as needed */
+}

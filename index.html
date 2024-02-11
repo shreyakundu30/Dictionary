@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link 
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Poppins&diplay=swap" rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Dictionary App</title>
+</head>
+<body>
+    <h1>Welcome To VocabVista</h1><br>
+    <p style="text-align: center; font-size: larger; font-family: 'Times New Roman', Times, serif;">Explore the world of words ! <br><br>Simply enter a word & unlock its meaning, complete with usage examples & clear pronunciation. <br><br>Enhance your vocabulary effortlessly with our intuitive tool.</p>
+    <div class="container">
+        <audio id="sound"></audio>
+        <div class="search-box">
+            <input type="text" placeholder="Type the word here..." id="inp-word" />
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="result" id="result"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <!-- Add more social icons as needed -->
+        </div>
+        <p>&copy; 2024 VocabVista | All rights reserved.</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
